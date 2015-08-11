@@ -1,4 +1,7 @@
 action :setup do
+
+  include_recipe 'java'
+
   home_path = @new_resource.home
   source_url = source_url_for_version @new_resource.version
   source_path = ::File.join(home_path, ::File.basename(source_url, '.tgz'))

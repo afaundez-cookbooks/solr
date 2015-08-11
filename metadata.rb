@@ -4,6 +4,7 @@ maintainer_email 'alvaro@faundez.net'
 license          'All rights reserved'
 description      'Installs/Configures solr'
 long_description 'Installs/Configures solr'
-version          '0.1.0'
+version          '0.1.1'
 
 depends 'tar', '~> 0.7.0'
+depends 'java', '~> 1.35.0'
